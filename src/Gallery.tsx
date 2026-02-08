@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
-import GallerySection from '@/components/GallerySection';
-import VideosSection from '@/components/VideosSection';
-import CeremoniesSection from '@/components/CeremoniesSection';
+import GallerySection from './components/GallerySection';
+import VideosSection from './components/VideosSection';
+import CeremoniesSection from './components/CeremoniesSection';
 import { Helmet } from 'react-helmet-async';
 
 const Gallery = () => {

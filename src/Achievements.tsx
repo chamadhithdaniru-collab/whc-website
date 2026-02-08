@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import AchievementsSection from '@/components/AchievementsSection';
+import AchievementsSection from './components/AchievementsSection';
 import { Helmet } from 'react-helmet-async';
 
 const Achievements = () => {

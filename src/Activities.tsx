@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import ActivitiesSection from '@/components/ActivitiesSection';
-import StarCampSection from '@/components/StarCampSection';
+import ActivitiesSection from './components/ActivitiesSection';
+import StarCampSection from './components/StarCampSection';
 import { Helmet } from 'react-helmet-async';
 
 const Activities = () => {

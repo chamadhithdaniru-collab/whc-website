@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import AcademicsSection from '@/components/AcademicsSection';
-import VisionSection from '@/components/VisionSection';
+import AcademicsSection from './components/AcademicsSection';
+import VisionSection from './components/VisionSection';
 import { Helmet } from 'react-helmet-async';
 
 const Academics = () => {

@@ -1,5 +1,5 @@
 import { Clock, BookOpen, Coffee, Users, Flag, Home } from 'lucide-react';
-import assemblyImg from '@/assets/assembly.jpg';
+import assemblyImg from './assets/assembly.jpg';
 
 const SchoolDaySection = () => {
   const schedule = [

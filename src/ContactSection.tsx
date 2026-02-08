@@ -1,6 +1,6 @@
 import { MapPin, Phone, Mail, Clock, Send, Instagram, Globe } from 'lucide-react';
 import { useState } from 'react';
-import schoolLogo from '@/assets/school-logo-official.png';
+import schoolLogo from './assets/school-logo-official.png';
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({

@@ -1,26 +1,26 @@
 import { Star, Sparkles, Telescope, Moon, Users, Mic2, Rocket, FlaskConical, BookOpen } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-import starcampTeacher from '@/assets/starcamp-teacher.png';
-import starcampBand from '@/assets/starcamp-band.png';
-import starcampLighting from '@/assets/starcamp-lighting.png';
-import starcampGuest from '@/assets/starcamp-guest.png';
-import starcampSpeech from '@/assets/starcamp-speech.png';
-import starcampPerformance from '@/assets/starcamp-performance.png';
-import starcampStudents from '@/assets/starcamp-students.png';
-import starcampTelescope1 from '@/assets/starcamp-telescope1.png';
-import starcampTelescope2 from '@/assets/starcamp-telescope2.png';
-import starcampTelescope3 from '@/assets/starcamp-telescope3.png';
-import starcampStudentNotes from '@/assets/starcamp-student-notes.png';
-import starcampTeacherSpeech from '@/assets/starcamp-teacher-speech.png';
-import starcampStudentPresenter from '@/assets/starcamp-student-presenter.png';
-import starcampStudentQuestion from '@/assets/starcamp-student-question.png';
-import starcampStagePresenter from '@/assets/starcamp-stage-presenter.png';
-import starcampTeacherClapping from '@/assets/starcamp-teacher-clapping.png';
-import starcampStudentListening from '@/assets/starcamp-student-listening.png';
-import starcampSolarSystem from '@/assets/starcamp-solar-system.png';
-import starcampRocketModel from '@/assets/starcamp-rocket-model.png';
-import starcampScienceDemo from '@/assets/starcamp-science-demo.png';
+import starcampTeacher from './assets/starcamp-teacher.png';
+import starcampBand from './assets/starcamp-band.png';
+import starcampLighting from './assets/starcamp-lighting.png';
+import starcampGuest from './assets/starcamp-guest.png';
+import starcampSpeech from './assets/starcamp-speech.png';
+import starcampPerformance from './assets/starcamp-performance.png';
+import starcampStudents from './assets/starcamp-students.png';
+import starcampTelescope1 from './assets/starcamp-telescope1.png';
+import starcampTelescope2 from './assets/starcamp-telescope2.png';
+import starcampTelescope3 from './assets/starcamp-telescope3.png';
+import starcampStudentNotes from './assets/starcamp-student-notes.png';
+import starcampTeacherSpeech from './assets/starcamp-teacher-speech.png';
+import starcampStudentPresenter from './assets/starcamp-student-presenter.png';
+import starcampStudentQuestion from './assets/starcamp-student-question.png';
+import starcampStagePresenter from './assets/starcamp-stage-presenter.png';
+import starcampTeacherClapping from './assets/starcamp-teacher-clapping.png';
+import starcampStudentListening from './assets/starcamp-student-listening.png';
+import starcampSolarSystem from './assets/starcamp-solar-system.png';
+import starcampRocketModel from './assets/starcamp-rocket-model.png';
+import starcampScienceDemo from './assets/starcamp-science-demo.png';
 
 const StarCampSection = () => {
   const highlights = [

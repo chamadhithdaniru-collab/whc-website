@@ -2,13 +2,13 @@ import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import schoolEntrance from '@/assets/school-entrance.jpg';
-import studentAssembly from '@/assets/student-assembly.jpg';
-import schoolGateGolden from '@/assets/school-gate-golden.jpg';
-import studentsAtGate from '@/assets/students-at-gate.jpg';
-import schoolLogo from '@/assets/school-logo-official.png';
+import schoolEntrance from './assets/school-entrance.jpg';
+import studentAssembly from './assets/student-assembly.jpg';
+import schoolGateGolden from './assets/school-gate-golden.jpg';
+import studentsAtGate from './assets/students-at-gate.jpg';
+import schoolLogo from './assets/school-logo-official.png';
 import SocialLinks from './SocialLinks';
-import { useLanguage } from '@/contexts/LanguageContext';
+import { useLanguage } from './contexts/LanguageContext';
 
 const HeroSection = () => {
   const [currentSlide, setCurrentSlide] = useState(0);

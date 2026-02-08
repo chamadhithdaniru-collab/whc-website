@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import NewsSection from '@/components/NewsSection';
+import NewsSection from './components/NewsSection';
 import { Helmet } from 'react-helmet-async';
 
 const News = () => {

@@ -1,17 +1,17 @@
 import { motion } from 'framer-motion';
 import { Flag, Users, Award, Calendar } from 'lucide-react';
-import flagCeremony1 from '@/assets/flag-ceremony-1.png';
-import flagCeremony2 from '@/assets/flag-ceremony-2.png';
-import principalCeremony from '@/assets/principal-ceremony.png';
-import teachersCeremony from '@/assets/teachers-ceremony.png';
-import ceremonyGround from '@/assets/ceremony-ground.png';
-import teachersAssembly from '@/assets/teachers-assembly.png';
-import saluteCeremony from '@/assets/salute-ceremony.png';
-import studentsWorship from '@/assets/students-worship.png';
-import ceremonialItems from '@/assets/ceremonial-items.png';
-import ceremonialProcession from '@/assets/ceremonial-procession.png';
-import traditionalDrum from '@/assets/traditional-drum.png';
-import buddhistProcession from '@/assets/buddhist-procession.png';
+import flagCeremony1 from './assets/flag-ceremony-1.png';
+import flagCeremony2 from './assets/flag-ceremony-2.png';
+import principalCeremony from './assets/principal-ceremony.png';
+import teachersCeremony from './assets/teachers-ceremony.png';
+import ceremonyGround from './assets/ceremony-ground.png';
+import teachersAssembly from './assets/teachers-assembly.png';
+import saluteCeremony from './assets/salute-ceremony.png';
+import studentsWorship from './assets/students-worship.png';
+import ceremonialItems from './assets/ceremonial-items.png';
+import ceremonialProcession from './assets/ceremonial-procession.png';
+import traditionalDrum from './assets/traditional-drum.png';
+import buddhistProcession from './assets/buddhist-procession.png';
 
 const CeremoniesSection = () => {
   const ceremonyImages = [

@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import { Menu, X, Globe } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import schoolLogo from '@/assets/school-logo-official.png';
-import { useLanguage } from '@/contexts/LanguageContext';
+import schoolLogo from './assets/school-logo-official.png';
+import { useLanguage } from './contexts/LanguageContext';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import ContactSection from '@/components/ContactSection';
-import SocialLinks from '@/components/SocialLinks';
+import ContactSection from './components/ContactSection';
+import SocialLinks from './components/SocialLinks';
 import { Helmet } from 'react-helmet-async';
 
 const Contact = () => {

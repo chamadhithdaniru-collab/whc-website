@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Quote, Phone, Mail, Award, Users, Star } from 'lucide-react';
-import principalImg from '@/assets/principal.jpg';
-import deputyPrincipalImg from '@/assets/deputy-principal.jpg';
+import principalImg from './assets/principal.jpg';
+import deputyPrincipalImg from './assets/deputy-principal.jpg';
 
 const PrincipalSection = () => {
   const leaders = [

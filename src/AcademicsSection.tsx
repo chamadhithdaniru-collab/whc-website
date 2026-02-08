@@ -1,6 +1,6 @@
 import { BookOpen, FlaskConical, Calculator, Palette, Cpu, Languages } from 'lucide-react';
-import libraryImg from '@/assets/library.jpg';
-import labImg from '@/assets/lab.jpg';
+import libraryImg from './assets/library.jpg';
+import labImg from './assets/lab.jpg';
 
 const AcademicsSection = () => {
   const streams = [

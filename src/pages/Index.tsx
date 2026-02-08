@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import HeroSection from '@/components/HeroSection';
-import SchoolVideoIntro from '@/components/SchoolVideoIntro';
-import AboutSection from '@/components/AboutSection';
-import HistorySection from '@/components/HistorySection';
-import PrincipalSection from '@/components/PrincipalSection';
-import SchoolInfoSection from '@/components/SchoolInfoSection';
-import DepartmentsSection from '@/components/DepartmentsSection';
-import AnthemPlayer from '@/components/AnthemPlayer';
+import HeroSection from './components/HeroSection';
+import SchoolVideoIntro from './components/SchoolVideoIntro';
+import AboutSection from './components/AboutSection';
+import HistorySection from './components/HistorySection';
+import PrincipalSection from './components/PrincipalSection';
+import SchoolInfoSection from './components/SchoolInfoSection';
+import DepartmentsSection from './components/DepartmentsSection';
+import AnthemPlayer from './components/AnthemPlayer';
 import { Helmet } from 'react-helmet-async';
 
 const Index = () => {
