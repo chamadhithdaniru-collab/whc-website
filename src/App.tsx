@@ -1,19 +1,19 @@
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
+import { Toaster } from "./toaster";
+import { Toaster as Sonner } from "./sonner";
+import { TooltipProvider } from "./tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import { LanguageProvider } from "./contexts/LanguageContext";
-import Layout from "./components/Layout";
-import Index from "./pages/Index";
-import Academics from "./pages/Academics";
-import Achievements from "./pages/Achievements";
-import Activities from "./pages/Activities";
-import Gallery from "./pages/Gallery";
-import News from "./pages/News";
-import Contact from "./pages/Contact";
-import NotFound from "./pages/NotFound";
+import Layout from "./Layout"; // Removed components/ because it's in src now
+import Index from "./Index"; // Removed pages/ because it's in src now
+import Academics from "./Academics";
+import Achievements from "./Achievements";
+import Activities from "./Activities";
+import Gallery from "./Gallery";
+import News from "./News";
+import Contact from "./Contact";
+import NotFound from "./NotFound";
 
 const queryClient = new QueryClient();
 
