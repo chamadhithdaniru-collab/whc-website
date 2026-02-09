@@ -19,7 +19,6 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Close mobile menu on route change
   useEffect(() => {
     setIsMobileMenuOpen(false);
   }, [location.pathname]);
@@ -53,7 +52,6 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
-          {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
             <motion.img 
               src={schoolLogo} 
@@ -76,7 +74,6 @@ const Navbar = () => {
             </div>
           </Link>
 
-          {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-6">
             {navItems.map((item, index) => (
               <Link 
@@ -104,7 +101,6 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* Language Toggle & Mobile Menu */}
           <div className="flex items-center gap-4">
             <motion.button 
               onClick={toggleLanguage}
@@ -128,23 +124,11 @@ const Navbar = () => {
             >
               <AnimatePresence mode="wait">
                 {isMobileMenuOpen ? (
-                  <motion.div
-                    key="close"
-                    initial={{ rotate: -90, opacity: 0 }}
-                    animate={{ rotate: 0, opacity: 1 }}
-                    exit={{ rotate: 90, opacity: 0 }}
-                    transition={{ duration: 0.2 }}
-                  >
+                  <motion.div key="close" initial={{ rotate: -90, opacity: 0 }} animate={{ rotate: 0, opacity: 1 }} exit={{ rotate: 90, opacity: 0 }}>
                     <X className="w-6 h-6" />
                   </motion.div>
                 ) : (
-                  <motion.div
-                    key="menu"
-                    initial={{ rotate: 90, opacity: 0 }}
-                    animate={{ rotate: 0, opacity: 1 }}
-                    exit={{ rotate: -90, opacity: 0 }}
-                    transition={{ duration: 0.2 }}
-                  >
+                  <motion.div key="menu" initial={{ rotate: 90, opacity: 0 }} animate={{ rotate: 0, opacity: 1 }} exit={{ rotate: -90, opacity: 0 }}>
                     <Menu className="w-6 h-6" />
                   </motion.div>
                 )}
@@ -152,41 +136,6 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-
-        {/* Mobile Menu */}
-        <AnimatePresence>
-          {isMobileMenuOpen && (
-            <motion.div 
-              initial={{ opacity: 0, height: 0 }}
-              animate={{ opacity: 1, height: "auto" }}
-              exit={{ opacity: 0, height: 0 }}
-              transition={{ duration: 0.3 }}
-              className="lg:hidden absolute top-full left-0 right-0 bg-card/98 backdrop-blur-xl shadow-elegant overflow-hidden"
-            >
-              <div className="container mx-auto px-4 py-6 flex flex-col gap-2">
-                {navItems.map((item, index) => (
-                  <motion.div
-                    key={index}
-                    initial={{ x: -20, opacity: 0 }}
-                    animate={{ x: 0, opacity: 1 }}
-                    transition={{ delay: index * 0.05 }}
-                  >
-                    <Link 
-                      to={item.path}
-                      className={`block py-3 px-4 rounded-xl font-medium transition-all ${
-                        isActive(item.path)
-                          ? 'bg-primary/10 text-primary'
-                          : 'text-foreground hover:bg-secondary'
-                      }`}
-                    >
-                      {t(item.nameKey)}
-                    </Link>
-                  </motion.div>
-                ))}
-              </div>
-            </motion.div>
-          )}
-        </AnimatePresence>
       </div>
     </nav>
   );

@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import schoolLogo from './assets/school-logo-official.png';
+import schoolLogo from '../assets/school-logo-official.png';
 
 interface PageTransitionProps {
   children: React.ReactNode;

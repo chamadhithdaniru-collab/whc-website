@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import schoolLogo from './assets/school-logo-official.png';
+import schoolLogo from '../assets/school-logo-official.png';
 
 const SchoolVideoIntro = () => {
 

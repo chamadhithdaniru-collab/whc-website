@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Play, Pause, Volume2, VolumeX, Music, X } from 'lucide-react';
-import schoolLogo from './assets/school-logo-official.png';
+import schoolLogo from '../assets/school-logo-official.png';
 
 interface AnthemPlayerProps {
   autoPlay?: boolean;

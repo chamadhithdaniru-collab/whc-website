@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import schoolLogo from './assets/school-logo-official.png';
 import SocialLinks from './SocialLinks';
-import { useLanguage } from './contexts/LanguageContext';
+import { useLanguage } from './LanguageContext';
 
 const Footer = () => {
   const { t } = useLanguage();

@@ -1,6 +1,6 @@
 import { MapPin, Phone, Mail, Clock, Send, Instagram, Globe } from 'lucide-react';
 import { useState } from 'react';
-import schoolLogo from './assets/school-logo-official.png';
+import schoolLogo from '../assets/school-logo-official.png';
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({
@@ -13,7 +13,6 @@ const ContactSection = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission
-    console.log(formData);
   };
 
   const contactInfo = [

@@ -1,22 +1,22 @@
 import { Trophy, Music, Users, Medal, Star, Mic2, Award, BookOpen, Beaker, Globe, Sparkles, Calendar, Palette } from 'lucide-react';
 import { motion } from 'framer-motion';
-import quizTeam from './assets/quiz-team.png';
-import debateWinner from './assets/debate-winner.png';
-import sportsAchievements from './assets/sports-achievements.png';
-import choirTeam from './assets/choir-team.png';
-import footballTeam from './assets/football-team.png';
-import musicTeam from './assets/music-team.png';
-import sihasaraTeam from './assets/sihasara-team.png';
-import danceTeam from './assets/dance-team.png';
-import dayOfGriffins from './assets/day-of-griffins.png';
-import anniversary69 from './assets/anniversary-69.png';
-import languageWinner from './assets/language-winner.png';
-import scienceTeam from './assets/science-team.png';
-import englishWinner from './assets/english-winner.png';
-import leoClub from './assets/leo-club.png';
-import walkOfGriffins from './assets/walk-of-griffins.png';
-import presidentGoldAward from './assets/president-gold-award.png';
-import artsFestivalWinners from './assets/arts-festival-winners.png';
+import quizTeam from '../assets/quiz-team.png';
+import debateWinner from '../assets/debate-winner.png';
+import sportsAchievements from '../assets/sports-achievements.png';
+import choirTeam from '../assets/choir-team.png';
+import footballTeam from '../assets/football-team.png';
+import musicTeam from '../assets/music-team.png';
+import sihasaraTeam from '../assets/sihasara-team.png';
+import danceTeam from '../assets/dance-team.png';
+import dayOfGriffins from '../assets/day-of-griffins.png';
+import anniversary69 from '../assets/anniversary-69.png';
+import languageWinner from '../assets/language-winner.png';
+import scienceTeam from '../assets/science-team.png';
+import englishWinner from '../assets/english-winner.png';
+import leoClub from '../assets/leo-club.png';
+import walkOfGriffins from '../assets/walk-of-griffins.png';
+import presidentGoldAward from '../assets/president-gold-award.png';
+import artsFestivalWinners from '../assets/arts-festival-winners.png';
 const AchievementsSection = () => {
   const achievements = [
     {

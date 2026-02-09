@@ -1,19 +1,17 @@
-import Navbar from './Navbar';
-import Footer from './Footer';
-import PageTransition from './PageTransition';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import { ReactNode } from 'react';
 
 interface LayoutProps {
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
 const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      <PageTransition>
-        <main>{children}</main>
-        <Footer />
-      </PageTransition>
+      <main>{children}</main>
+      <Footer />
     </div>
   );
 };

@@ -1,10 +1,9 @@
 import { Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-// Change these three lines to look in the current folder
-import schoolLogo from './assets/school-logo-official.png';
-import SocialLinks from './SocialLinks';
-import { useLanguage } from './LanguageContext';
+import schoolLogo from '../assets/school-logo-official.png';
+import SocialLinks from '../SocialLinks';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const Footer = () => {
   const { t } = useLanguage();

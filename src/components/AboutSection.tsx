@@ -1,7 +1,7 @@
 import { Users, GraduationCap, Award, Building, Globe, BookOpen } from 'lucide-react';
-import schoolGate from './assets/school-gate.png';
-import schoolLogo from './assets/school-logo-official.png';
-import { useLanguage } from './contexts/LanguageContext';
+import schoolGate from '../assets/school-gate.png';
+import schoolLogo from '../assets/school-logo-official.png';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const AboutSection = () => {
   const { t } = useLanguage();

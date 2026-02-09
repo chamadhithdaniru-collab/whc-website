@@ -1,10 +1,10 @@
 import { Trophy, Music, Users, Volleyball, Medal, Star, Drum } from 'lucide-react';
 import { motion } from 'framer-motion';
-import cricketBigMatch from './assets/cricket-big-match.png';
-import fireDance1 from './assets/fire-dance-1.png';
-import fireDance2 from './assets/fire-dance-2.png';
-import bandTeam from './assets/band-team.png';
-import bandPerformance from './assets/band-performance.png';
+import cricketBigMatch from '../assets/cricket-big-match.png';
+import fireDance1 from '../assets/fire-dance-1.png';
+import fireDance2 from '../assets/fire-dance-2.png';
+import bandTeam from '../assets/band-team.png';
+import bandPerformance from '../assets/band-performance.png';
 
 const ActivitiesSection = () => {
   const sports = [

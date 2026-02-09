@@ -1,6 +1,6 @@
 import { Calendar, Milestone, Star, Building } from 'lucide-react';
 import { motion } from 'framer-motion';
-import schoolBanner from './assets/school-banner.png';
+import schoolBanner from '../assets/school-banner.png';
 
 const HistorySection = () => {
   const timeline = [
